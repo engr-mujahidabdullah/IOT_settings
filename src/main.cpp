@@ -36,9 +36,9 @@ void setup() {
 
 void loop() {
 
-  firebase_write("test/data", "Apple");
-  vTaskDelay(1000);
-  Serial.print(firebase_read("test/data"));
+  //firebase_write("test/data", "Apple");
+  vTaskDelay(10000);
+  Serial.print(firebase_read("test/float"));
 
 }
 
